@@ -201,11 +201,11 @@
     gap: 4rem;
     font-family: var(--mono);
     font-size: 10rem;
-    color: rgba(255,255,255,0.25);
+    color: rgba(255,255,255,0.4);
     margin-top: 8rem;
     transition: color 0.2s;
   }
-  .card-link:hover .source-link { color: rgba(255,255,255,0.5); }
+  .card-link:hover .source-link { color: rgba(255,255,255,0.65) !important; }
   .card .source-link .arrow { font-size: 12rem; }
 
   .tier-badge {
@@ -266,7 +266,7 @@
   .kobe-item .ks {
     font-family: var(--mono);
     font-size: 10rem;
-    color: rgba(255,255,255,0.2);
+    color: rgba(255,255,255,0.35);
     margin-top: 6rem;
   }
 
@@ -341,9 +341,10 @@
     color: inherit !important;
     text-decoration: none !important;
   }
-  .card-link:hover .source-link, .kobe-item a:hover .ks { color: rgba(255,255,255,0.55) !important; }
-  .tl-src a, .tl-src a:link, .tl-src a:visited { color: rgba(255,255,255,0.2) !important; text-decoration: none !important; }
-  .tl-src a:hover { color: rgba(255,255,255,0.5) !important; }
+  .card-link:hover .source-link { color: rgba(255,255,255,0.65) !important; }
+  .kobe-item a:hover .ks { color: rgba(255,255,255,0.55) !important; }
+  .tl-src a, .tl-src a:link, .tl-src a:visited { color: rgba(255,255,255,0.4) !important; text-decoration: none !important; }
+  .tl-src a:hover { color: rgba(255,255,255,0.65) !important; }
 
   .footer-note {
     position: absolute; bottom: 44px; left: 90px;
@@ -715,7 +716,7 @@
     <button id="next" onclick="navigate(1)">→</button>
   </div>
   <div class="page-indicator" id="page-num">1 / 6</div>
-  <div style="position:absolute;bottom:44px;left:50%;transform:translateX(-50%);font-family:var(--mono);font-size:9rem;color:rgba(255,255,255,0.08);">v5 · link blue fix · hover OK</div>
+  <div style="position:absolute;bottom:44px;left:50%;transform:translateX(-50%);font-family:var(--mono);font-size:9rem;color:rgba(255,255,255,0.08);">v6 · readable links · min 40% opacity</div>
 </div>
 
 <script>
